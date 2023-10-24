@@ -1,0 +1,31 @@
+function 
+delimit 
+ keyword  variable semicolon 
+ keyword  variable operator int operator semicolon 
+ variable arithmetic  variable semicolon 
+ variable arithmetic  semicolon 
+ keyword delimit string delimit semicolon   
+ loop delimit int delimit 
+ delimit 
+  keyword delimit int delimit semicolon  
+  keyword delimit string delimit semicolon 
+  keyword delimit string delimit semicolon 
+  keyword delimit string delimit semicolon  
+  keyword delimit string delimit semicolon  
+  variable assign keyword delimit string operator string delimit semicolon 
+  conditional delimit keyword delimit variable operator int operator variable delimit comparison keyword delimit 
+  delimit   
+   keyword delimit string delimit semicolon   
+   keyword delimit string delimit semicolon  
+   keyword delimit string delimit semicolon 
+   variable delimit variable delimit semicolon 
+  delimit 
+  conditional 
+  delimit 
+  variable delimit variable delimit semicolon 
+  keyword delimit string delimit semicolon 
+  delimit 
+ delimit delimit  
+ 
+ 
+  

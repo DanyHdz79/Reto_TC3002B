@@ -1,0 +1,42 @@
+
+keyword  delimit delimit 
+delimit 
+  keyword  variable operator int operator operator  variable operator int operator semicolon 
+  keyword  variable  assign int semicolon 
+  keyword  variable operator variable operator variable operator variable semicolon 
+  keyword  variable operator int operator operator  arithmetic variable semicolon 
+  variable  assign  string semicolon 
+  variable  arithmetic variable semicolon 
+  keyword  variable  assign  int semicolon 
+  variable  assign  keyword delimit string operator  string delimit semicolon 
+  variable  assign  function semicolon 
+  variable delimit variable operator  string delimit semicolon 
+  variable delimit variable operator  string delimit semicolon   delimit 
+    variable  assign  keyword delimit variable operator  int operator  variable delimit semicolon 
+    conditional  delimit variable  comparison  keyword delimit  variable delimit int delimit semicolon 
+    variable  operator  variable delimit variable delimit  arithmetic  int  operator  assign  '\int 'semicolon 
+    conditional delimit variable delimit variable delimit  comparison  int delimit 
+    delimit 
+    variable delimit variable operator  variable delimit semicolon 
+    variable delimit variable operator  variable delimit semicolon 
+    keyword delimit string operator  variable delimit variable delimit delimit semicolon 
+    keyword delimit string operator variable delimit semicolon 
+    variable arithmetic arithmetic semicolon 
+    variable  assign  keyword delimit variable delimit semicolon 
+    conditional  delimit variable  comparison  int delimit 
+    delimit 
+  keyword delimit string operator  variable delimit semicolon 
+  variable  assign  function semicolon 
+  variable  assign  delimit variable  arithmetic  variable delimit semicolon 
+  variable  arithmetic assign  float semicolon 
+  keyword delimit string operator  variable delimit semicolon 
+  keyword delimit string operator  variable delimit semicolon 
+  keyword delimit string operator variable operator variable delimit semicolon        keyword delimit string operator variable operator variable delimit semicolon 
+       variable delimit int delimit semicolon 
+    delimit 
+    variable delimit variable operator  string delimit semicolon 
+    variable delimit variable operator  string delimit semicolon 
+    keyword delimit string operator  variable delimit semicolon 
+  delimit 
+ delimit 
+loop delimit variable  comparison  keyword delimit semicolon delimit 

@@ -1,0 +1,19 @@
+
+
+
+function 
+delimit 
+  keyword delimit string delimit semicolon 
+  keyword delimit string delimit semicolon 
+  keyword delimit variable delimit semicolon 
+  keyword delimit string delimit semicolon 
+  keyword delimit string delimit semicolon 
+  keyword delimit string delimit semicolon 
+  variable arithmetic  variable  assign  keyword delimit string operator string delimit semicolon 
+  conditional  delimit variable  comparison  keyword delimit 
+   delimit 
+     keyword delimit string delimit semicolon 
+     keyword delimit string variable  \string delimit semicolon 
+    delimit 
+  keyword delimit string delimit semicolon 
+delimit 

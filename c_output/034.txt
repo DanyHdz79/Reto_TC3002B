@@ -1,0 +1,33 @@
+
+
+keyword  delimit delimit  delimit 
+   variable  arithmetic variable semicolon 
+   keyword  variable operator int operator semicolon 
+   keyword  variable operator int operator operator variable operator int operator semicolon 
+   keyword  variable operator variable assign int semicolon 
+   keyword  variable operator  variable operator  variable semicolon 
+   variable  assign  function semicolon 
+   loop delimit delimit variable assign delimit keyword delimit string operator string delimit delimit delimit comparison  keyword delimit  delimit 
+   
+      loop delimit int delimit  delimit 
+         keyword delimit variable operator int operator variable delimit semicolon 
+         conditional delimit variable  comparison  keyword delimit  variable delimit int delimit semicolon 
+         conditional delimit variable operator int operator comparison '\variable 'delimit  delimit 
+            variable operator int operator assign '\int 'semicolon 
+     variable operator int operator assign '\int 'semicolon 
+     variable delimit variable operator string delimit semicolon 
+      variable delimit variable operator variable delimit semicolon 
+     variable delimit variable operator string delimit semicolon 
+     variable arithmetic arithmetic semicolon 
+     conditional delimit delimit variable assign delimit keyword delimit variable delimit delimit  comparison  int delimit delimit  delimit 
+        variable delimit variable delimit semicolon 
+        variable  assign  function semicolon 
+               variable  assign  variable arithmetic variable semicolon 
+        keyword delimit string operator variable operator delimit keyword delimit variable arithmetic variable operator variable delimit semicolon 
+        variable delimit int delimit semicolon 
+     delimit 
+         delimit 
+      delimit 
+   delimit 
+   keyword delimit string delimit semicolon 
+delimit 

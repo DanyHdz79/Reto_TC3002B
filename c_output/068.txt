@@ -1,0 +1,51 @@
+
+
+keyword  delimit delimit 
+delimit 
+keyword  variable operator int operator operator operator int operator operator int operator semicolon 
+keyword  keyword  variable operator variable operator variable operator variable operator variable operator variable operator variable operator variable operator variable operator variable operator variable assign int semicolon 
+keyword  variable operator variable operator variable semicolon  
+keyword  variable operator int operator operator variable operator int operator operator variable operator int operator operator variable operator int operator operator variable operator int operator semicolon 
+variable operator int operator assign char operator variable operator int operator assign char semicolon 
+operator int operator operator int operator assign operator int operator operator int operator assign operator int operator operator int operator assign '\int 'semicolon variable delimit variable operator  string delimit semicolon 
+    variable delimit variable operator  string delimit semicolon variable assign function semicolon loop delimit variable assign int semicolon variable comparison int semicolon variable arithmetic arithmetic delimit 
+delimit 
+ 
+ loop delimit variable assign variable operator variable operator operator variable assign int semicolon variable comparison int semicolon variable arithmetic arithmetic operator variable arithmetic arithmetic delimit 
+ delimit 
+  
+   operator int operator operator int operator assign variable semicolon 
+   variable delimit variable operator operator int operator delimit semicolon 
+  loop delimit variable assign int semicolon variable comparison int semicolon variable arithmetic arithmetic delimit 
+  delimit 
+   loop delimit variable assign variable operator variable operator operator variable assign int semicolon variable comparison int semicolon variable arithmetic arithmetic operator variable arithmetic arithmetic delimit 
+   delimit  
+  
+    operator int operator operator int operator assign variable semicolon 
+    variable delimit variable operator operator int operator delimit semicolon 
+    variable delimit variable operator operator int operator delimit semicolon     loop delimit variable assign int semicolon variable comparison int semicolon variable arithmetic arithmetic delimit 
+    delimit 
+     loop delimit variable assign variable operator variable operator operator variable assign int semicolon variable comparison int semicolon variable arithmetic arithmetic operator variable arithmetic arithmetic delimit 
+     delimit  variable arithmetic arithmetic semicolon 
+      operator int operator operator int operator assign variable semicolon 
+      variable delimit variable operator variable delimit semicolon 
+      variable delimit variable operator operator int operator delimit semicolon 
+      keyword delimit string operator variable delimit semicolon          variable delimit variable operator  variable delimit semicolon 
+          variable delimit variable operator  variable delimit semicolon 
+   keyword delimit string operator  variable delimit semicolon 
+          variable  assign  keyword delimit variable delimit semicolon 
+          conditional  delimit variable  comparison  int delimit 
+          delimit 
+            variable assign function semicolon 
+  variable assign delimit variable arithmetic variable delimit semicolon 
+   keyword delimit string operator variable delimit semicolon 
+     keyword delimit string operator delimit keyword delimit variable arithmetic variable delimit semicolon 
+     keyword delimit string operator variable delimit semicolon 
+            variable delimit int delimit semicolon 
+          delimit 
+   variable delimit variable operator  string delimit semicolon 
+   variable delimit variable operator  string delimit semicolon 
+    delimit     delimit 
+   delimit   delimit 
+    delimit 
+delimit delimit 

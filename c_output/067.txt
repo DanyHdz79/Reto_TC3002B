@@ -1,0 +1,25 @@
+         
+    
+    keyword  variable  delimit delimit 
+    delimit 
+      variable  arithmetic variable semicolon 
+      keyword  variable operator int operator  operator  variable operator int operator semicolon        
+ keyword delimit string delimit semicolon 
+      keyword delimit string delimit semicolon     
+ keyword delimit string delimit semicolon 
+ keyword delimit string delimit semicolon 
+ keyword delimit string delimit semicolon  
+      keyword delimit string  delimit semicolon 
+ variable assign keyword delimit string operator string delimit semicolon 
+      conditional delimit keyword delimit variable operator int operator variable delimit delimit 
+      delimit 
+      keyword delimit  string variable  variable  variable  \string delimit semicolon 
+           delimit 
+    conditional  
+       keyword delimit string delimit semicolon  
+      
+            keyword  int semicolon    
+           delimit 
+      
+      
+   
