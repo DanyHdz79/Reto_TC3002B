@@ -5,37 +5,31 @@
 
 digit           [0-9]
 letter          [a-zA-Z]
-spaces          \t|\b|\r\n|\'|\\|\"|\$|
-keyword         alignas|alignof|auto|bool|break|char|const|constexpr|continue|double|enum|extern|false|float|goto|inline|int|long|nullptr|register|restrict|return|short|signed|sizeof|static|static_assert|struct|thread_local|true|typedef|typeof|typeof_unqual|union|unsigned|void|volatile|public|private|sleep|system|printf|fopen|fgets|NULL|perror
-                /* |_Alignas|_Alignof|_Atomic|_BitInt|_Bool|_Complex|_Decimal128|_Decimal32|_Decimal64|_Generic|_Imaginary|_Noreturn|_Static_assert|_Thread_local */
 loop            for|while|do
-conditional     if|else|switch|case|default 
-operator        &&|&=|&|\||\~|!|!=|\|\||\|\^|\^\=|\[|\]|#|##|\+|\-|\/|\%|\<|\>\:|\;|\,|\.|\?|\*
+conditional     if|else|switch|case|default
+keyword         alignas|alignof|auto|bool|break|const|constexpr|continue|double|enum|extern|false|goto|inline|long|nullptr|register|restrict|return|short|signed|sizeof|static|static_assert|struct|thread_local|true|typedef|typeof|typeof_unqual|union|unsigned|void|volatile|public|private|sleep|system|printf|fopen|fgets|NULL|perror
 name            (({letter}+({digit}+|{letter}+|\_)*)|(\_+({digit}+|{letter}+)+({digit}+|{letter}+|\_)*))
 function        (({keyword}[ ])*{name}\(\))
 skip            (#.*)|(\/\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+\/)|(\/\/.*)|\n
+int_number      [\-|\+]?{digit}+
+float_number    [\-|\+]?{digit}*\.{digit}+
+arithmetic      [\+\-\*\/\%\~]
+arithmetic_operation ({int_number}|{float_number}|{name}){arithmetic}({int_number}|{float_number}|{name})
 
 %%
-[\-|\+]?{digit}+                                                                                {printf("int ");}
-[\-|\+]?{digit}*\.{digit}+                                                                      {printf("float ");}
-[\+\-\*\/\%\~]                                                                                  {printf("arithmetic ");}
-\=                                                                                              {printf("assign ");}
-\(|\)|\{|\}                                                                                     {printf("delimit ");}
-\=\=|\!\=|\<|\>|\<\=|\>\=                                                                       {printf("comparison ");}
-\!|\&\&|\|\|                                                                                    {printf("logical ");} 
-;                                                                                               {printf("semicolon ");}
-{operator}                                                                                      {printf("operator ");}
-'[^\'\n\r]?'                                                                                    {printf("char ");}
-\"[^\"]*\"                                                                                      {printf("string ");}
-{function}                                                                                      {printf("function ");}
-{keyword}                                                                                       {printf("keyword ");}
-{loop}                                                                                          {printf("loop ");}
-{conditional}                                                                                   {printf("conditional ");}
-{name}                                                                                          {printf("variable ");}
-\t                                                                                              {printf(" ");}
-{skip}\n                                                                                         //do nothing
+int                                         {printf("int ");}
+float                                       {printf("float ");}
+char                                        {printf("char ");}
+{loop}                                      {printf("loop ");}
+{conditional}                               {printf("conditional ");}
+{function}                                  {printf("function ");}
+{arithmetic_operation}                      {printf("arithmetic_operation ");}
+\t|\n                                       {printf(" ");}
+{skip}\n                                    //do nothing
+.                                                                      
 %%
 
 
 
 //lex ./../lexical_analyzer/lexer.l && gcc ./../lexical_analyzer/lex.yy.c -o lexer -ll
+// func / loops / cond / int / float / char /  operaciones aritmeticas / 
