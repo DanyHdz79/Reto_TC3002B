@@ -1,1 +1,0 @@
-     int        char      char    int               int     char           arithmetic_operation arithmetic_operation           loop          conditional                 int      int arithmetic_operation arithmetic_operation                 conditional            int                           

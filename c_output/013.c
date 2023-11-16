@@ -1,1 +1,0 @@
-    char   loop                   conditional                    arithmetic_operation       conditional             conditional arithmetic_operation   conditional    arithmetic_operation                             
